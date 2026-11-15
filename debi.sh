@@ -294,6 +294,7 @@ while [ $# -gt 0 ]; do
         --aliyun)
             dns='223.5.5.5 223.6.6.6'
             dns6='2400:3200::1 2400:3200:baba::1'
+            dns10='223.5.5.5 223.6.6.6'
             mirror_host=mirrors.aliyun.com
             ntp=time.amazonaws.cn
             ;;
